@@ -1,0 +1,26 @@
+*{margin: 0; padding: 0;}
+
+/*팝업창 위치 꾸미기*/
+.poppop{
+    margin: 100px; 
+}
+.popup{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    display: none;/*팝업 안보이게 만들기*/
+}
+
+/*Close버튼 꾸미기*/
+.popup p{
+    background-color: #000;
+    padding-right: 10px;
+    text-align: left;
+}
+.popup p a{
+    color: #fff;
+    text-decoration: none;
+}
+.popup img{
+    display: block;
+}

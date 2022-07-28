@@ -1,0 +1,25 @@
+*{margin:0; padding:0;}
+header{
+  height:800px; 
+  background:pink;
+}
+section{
+  height:800px; 
+  background:skyblue;
+}
+article{
+  height:800px; 
+  background:orange;
+}
+footer{
+  height:800px; 
+  background:yellowgreen;
+}
+
+/* icon 꾸미기 */
+.top{
+  position:fixed; 
+  bottom:50px; 
+  right:50px; 
+  display:none;
+}

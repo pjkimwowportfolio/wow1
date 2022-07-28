@@ -1,0 +1,367 @@
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: 0; color: #191919;}
+/* font-family: 'Noto Sans KR', sans-serif; */
+/* font-family: 'Roboto', sans-serif; 
+font-family: 'Libre Caslon Text', serif;*/
+
+body{
+font-family: 'Noto Sans KR', sans-serif;
+font-size: 12px;
+line-height: 22px;
+color: #191919;
+min-width: 1320px;
+}
+
+#top{
+width: 100%;
+height: 82px;
+position: absolute; 
+top: 0;
+left: 0; 
+z-index: 99;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#92278f+0,92278f+100&1+0,0+100 */
+background: -moz-linear-gradient(top,  rgba(146,39,143,1) 0%, rgba(146,39,143,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(146,39,143,1) 0%,rgba(146,39,143,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(146,39,143,1) 0%,rgba(146,39,143,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#92278f', endColorstr='#0092278f',GradientType=0 ); /* IE6-9 */
+
+}
+.top_inner{
+width: 1320px;
+height: 24px;
+margin: auto;   
+}
+.top_inner> a{
+float: left;
+margin: 20px 0;
+}
+.top_left{
+float: left; 
+}
+.top_left> li{
+padding: 30px 0 0px 100px;
+float: left; 
+}
+.top_left> li> a{
+display: block;
+font-weight: bold;
+font-size: 18px;
+color: #ffffff;
+padding-bottom: 30px;
+}
+.top_left> li> a:hover{
+color: #92278f;
+text-shadow: 5px 5px 3px rgba(0,0,0,0.2);
+}
+.top_right{
+float: right;
+}
+.top_right li{
+padding: 30px 0 0 30px;
+float: left;
+}
+.top_right li a{
+display: block;
+width: 24px;
+height: 24px;
+}
+.top_right li:nth-child(1) a{background: url(images/login.png) center center no-repeat;}
+.top_right li:nth-child(2) a{background: url(images/search.png) center center no-repeat;}
+.top_right li:nth-child(3) a{background: url(images/topbasket.png) center center no-repeat;}
+.top_right li:nth-child(4) a{background: url(images/menu_icon.png) center center no-repeat;}
+.top_right li:nth-child(1) a:hover{background: url(images/loginhover.png) center center no-repeat;}
+.top_right li:nth-child(2) a:hover{background: url(images/searchhover.png) center center no-repeat;}
+.top_right li:nth-child(3) a:hover{background: url(images/topbasket_hover.png) center center no-repeat;}
+.top_right li:nth-child(4) a:hover{background: url(images/menu_icon_hover.png) center center no-repeat;}
+
+
+/*서브메뉴*/
+.sub{
+width: 100%;
+background-color: rgba(146,39,143,0.3);
+position: absolute;
+left: 0;
+display: none;
+}
+.sub div{/* 서브 위아래 간격 조정안됨 */
+width: 1320px;
+margin: 10px auto;
+padding: 10px 0;
+height: 130px;
+}
+.sub ul{
+float: left;
+margin-left: 90px;
+}
+.sub ul:nth-child(1) {margin-left:238px;}
+.sub ul:nth-child(2) {margin-left:90px;}
+.sub ul:nth-child(3) {margin-left:58px;}
+.sub ul:nth-child(4) {margin-left:96px;}
+.sub a {
+padding-top: 10px;
+font-size: 14px;
+color: #ffffff;
+}
+.sub a:hover{
+color: #92278f;
+}
+.top_left li:hover .sub{
+display: block;
+}
+
+/* 배경스크롤속성 */
+
+.bg1{
+    background: url(images/pagewine1.jpg) no-repeat center top fixed;
+    background-size: cover;
+    height: 660px; 
+}
+
+/* 레드와인 */
+#box1{
+    background: #f1f1f5 url(images/redwine_bgbox.jpg) no-repeat center center;
+    width: 100%; }
+#box1 h1{
+    text-align: center;
+    color:rgba(146,39,143,0.5);
+    padding-top: 60px;
+    font-size: 40px;
+    font-family: 'Libre Caslon Text', serif;
+    letter-spacing: -2px;
+}
+.box1_inner{
+    width: 1280px;
+    margin: auto;
+    height: 790px;
+}
+    
+.box1_inner li{
+    float:left;
+    width: 265px;
+    height: 322px;
+    margin: 44px 40px 0 0;
+    overflow: hidden;
+}
+.box1_inner li:nth-child(1){
+    margin-left: 50px;
+}
+.box1_inner li:nth-child(5){
+    margin-left: 50px;
+}
+.box1_inner li:nth-child(4n){
+    margin-right: 0;
+}
+.box1_inner li:hover img{
+    transform: scale(1.1, 1.1);
+}
+.box1_inner li img{
+    transition: all .5s;
+}
+
+.bg2{
+    background: url(images/pagewine2.jpg) no-repeat center top fixed;
+    background-size: cover;
+    height: 500px;
+}
+
+/* 화이트와인 */
+#box2{
+    background: #f1f1f5 url(images/whwine_bgbox.jpg) no-repeat center center;
+    width: 100%;
+}
+#box2 h1{
+    text-align: center;
+    color:rgba(146,39,143,0.5);
+    padding-top: 60px;
+    font-size: 40px;
+    font-family: 'Libre Caslon Text', serif;
+    letter-spacing: -2px;
+}
+.box2_inner{
+    width: 1280px;
+    margin: auto;
+    height: 790px;
+}
+.box2_inner li{
+    float:left;
+    width: 265px;
+    height: 322px;
+    margin:44px 40px 0 0;
+    overflow: hidden;
+}
+.box2_inner li:nth-child(1){
+    margin-left: 50px;
+}
+.box2_inner li:nth-child(5){
+    margin-left: 50px;
+}
+.box2_inner li:nth-child(4n){
+    margin-right: 0;
+}
+.box2_inner li:hover img{
+    transform: scale(1.1, 1.1);
+}
+.box2_inner li img{
+    transition: all .5s;
+}
+
+.bg3{
+    background:url(images/pagewine3.jpg) no-repeat center top fixed;
+    background-size: cover;
+    height: 500px;
+}
+/* 스파클링와인 */
+#box3{
+    background:  #f1f1f5 url(images/spwine_bgbox.jpg) no-repeat center center;
+    width: 100%;
+}
+#box3 h1{
+    text-align: center;
+    color:rgba(146,39,143,0.5);
+    padding-top: 60px;
+    font-size: 40px;
+    font-family: 'Libre Caslon Text', serif;
+    letter-spacing: -2px;
+}
+.box3_inner{
+    width: 1280px;
+    margin: auto;
+    height: 790px;
+}
+
+.box3_inner li{
+    float:left;
+    width: 265px;
+    height: 322px;
+    margin: 44px 40px 0 0;
+    overflow: hidden;
+}
+.box3_inner li:nth-child(1){
+    margin-left: 50px;
+}
+.box3_inner li:nth-child(5){
+    margin-left: 50px;
+}
+.box3_inner li:nth-child(4n){
+    margin-right: 0;
+}
+.box3_inner li:hover img{
+    transform: scale(1.1, 1.1);
+}
+.box3_inner li img{
+    transition: all .5s;
+}
+
+#bg4{
+    background: url(images/pagewine4.jpg) no-repeat center top fixed;
+    background-size: cover;
+    height: 400px;
+}
+#box4{
+    width: 100%;
+    margin: auto;
+}
+#box4> img{
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    }
+/* 엠디 배너 */
+#box5{
+    width: 100%;
+    margin: auto;
+}
+#box5> img{
+    width: 100%;
+    overflow: hidden;
+    display: block;
+
+}
+/* 광고 배너 
+.ad{
+    width:100%; 
+    margin: auto;  
+}
+.ad> img{   
+    width: 100%;
+    overflow: hidden;
+    display: block;
+}
+*/
+
+
+/* footer */
+#footer{
+    clear: both;
+    width: 100%;
+    background-color: #191919;}
+
+.f_inner{
+    width: 1280px;
+    height: 300px;
+    margin: auto;
+    padding: 20px 0 ;
+}
+.sns{float: right;}
+.sns li{
+    float: left;
+    padding-left: 20px;
+    opacity: 0.7;}
+.sns li:hover{opacity: 1;}
+.f_left img{margin-bottom: 10px;}
+.f_left{
+    width: 1080px;
+    text-align: left;
+    display: block;
+    float: left;
+}
+.name{
+    font-size: 18px;
+    font-family: 'Libre Caslon Text', serif;
+    }
+
+.f_link{float: left;}
+.f_link li{
+    float: left;
+    display: block;
+    padding: 10px 10px 20px 0;}
+.f_link li a{
+    color: rgba(225,225,225,0.3);}
+.f_link li a:hover{ color: #fff;}
+
+.f_inner p{
+    font-size: 14px;
+    clear: both;
+    color: rgba(225,225,225,0.3);}
+
+.address{
+    width: 100%;
+    display: block;
+    float: left;
+}
+.f_right{
+   float: right;
+   margin-top: 110px; 
+}
+.f_right ul li{
+    text-align: right;
+    display: block;
+    padding-top: 5px;
+   }
+.f_right li a{
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: bold;
+    color: rgba(225,225,225,0.3);}
+small{
+        font-size: 12px;
+}
+  
+/* TOP BTN */
+.top{ 
+    position:fixed; 
+    bottom:50px; 
+    right:50px; 
+    display:none;
+  }
