@@ -78,7 +78,7 @@ height: 24px;
 
 /*서브메뉴*/
 .sub{
-width: 100%;
+min-width: 100%;
 background-color: rgba(146,39,143,0.3);
 position: absolute;
 left: 0;
