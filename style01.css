@@ -14,7 +14,7 @@ min-width: 1320px;
 }
 
 #top{
-min-width: 100%;
+width: 100%;
 height: 82px;
 position: absolute; 
 top: 0;
