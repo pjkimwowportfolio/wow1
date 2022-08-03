@@ -85,7 +85,7 @@ left: 0;
 display: none;
 }
 .sub div{/* 서브 위아래 간격 조정안됨 */
-min-width: 1320px;
+width: 1320px;
 margin: 10px auto;
 padding: 10px 0;
 height: 130px;
